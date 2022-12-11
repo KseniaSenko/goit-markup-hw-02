@@ -1,0 +1,109 @@
+:root{
+    --primary-brand: #4D5AE5;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;  /*тонкий текст*/
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --white: #ffffff;
+}
+
+body{
+    background-color: #ffffff;
+    color: var(--text);
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.link, .logo, .button {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover,
+.link:focus{
+    color: var(--primary-brand);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo{
+    color: var(--dark);
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+
+}
+
+.web {
+    color: var(--primary-brand);
+}
+
+.hero-title{
+    color: var(--white);
+    font-size: 56px;
+    line-height: 1.2;
+    letter-spacing: 0.002em;
+    text-align: center;
+}
+
+.button{
+    background-color: var(--primary-brand);
+    color: var(--white);
+}
+
+.main-title {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.002em;
+    text-align: center;
+}
+
+.title{
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.002em;
+}
+
+.text, .footer-text{
+    color: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.002em;
+}
+
+.footer-text{
+    color: var(--white);
+}
+
+.buttons{
+    background-color: var(--accent);
+    color: var(--primary-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.004em;
+    cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus{
+    background-color: var(--primary-brand);
+    color: var(--white);
+}
+.services{
+    text-decoration: none;
+}
