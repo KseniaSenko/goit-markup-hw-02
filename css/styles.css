@@ -92,7 +92,8 @@ body{
     line-height: 1.5;
 }
 
-.footer-text{
+.footer-text,
+.studio {
     color: var(--white);
 }
 
